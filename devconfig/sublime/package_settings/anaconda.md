@@ -1,6 +1,6 @@
 # Anaconda
 
-Settings for the Sublime Anaconda plugin.
+Settings for the Sublime _Anaconda_ plugin.
 
 
 ## Instructions
@@ -16,7 +16,7 @@ Settings for the Sublime Anaconda plugin.
 ## Notes
 
 
-For more details, see the Default version of the file.
+For more details, see the Default of the file.
 
 
 ## Sample
