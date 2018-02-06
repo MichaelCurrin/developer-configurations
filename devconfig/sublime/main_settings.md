@@ -12,9 +12,10 @@ a Python developer who also uses other languages.
 4. save (no need to restart Sublime)
 
 
-## Notes
+For more info on specific setting in this file, see the `- Default` settings file in Sublime which is also shown when viewing `Settings`.
 
-For more info on specific setting in this file, see the Default settings file in Sublime which is also shown using step 2 above.
+
+## Notes
 
 Note that comments _are_ allowed in the settings file as of _Sublime 2_, even though that is not a normal JSON feature. Note however that when changing the font size anywhere in Sublime by holding CTRL and using the mouse scroll, the font size will be updated in the User settings file and _all_ comments will be lost. Therefore, do not keep permanent info there, or use `"_comment"` as a key, as recommended here:
 
