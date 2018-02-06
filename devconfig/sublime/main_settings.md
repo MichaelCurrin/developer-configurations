@@ -1,6 +1,6 @@
-# Sublime Main Settings
+# Main Settings
 
-This file is a reference for general settings in Sublime 3, aimed at
+This file is a reference for general settings in _Sublime 3_, aimed at
 a Python developer who also uses other languages.
 
 
@@ -16,7 +16,7 @@ a Python developer who also uses other languages.
 
 For more info on specific setting in this file, see the Default settings file in Sublime which is also shown using step 2 above.
 
-Note that comments _are_ allowed in the settings file as of _Sublime version 2_, even though that is not a normal JSON feature. Note however that when changing the font size anywhere in Sublime by holding CTRL and using the mouse scroll, the font size will be updated in the User settings file and _all_ comments will be lost. Therefore, do not keep permanent info there, or use `"_comment"` as a key, as recommended here:
+Note that comments _are_ allowed in the settings file as of _Sublime 2_, even though that is not a normal JSON feature. Note however that when changing the font size anywhere in Sublime by holding CTRL and using the mouse scroll, the font size will be updated in the User settings file and _all_ comments will be lost. Therefore, do not keep permanent info there, or use `"_comment"` as a key, as recommended here:
 
 [https://stackoverflow.com/questions/244777/can-comments-be-used-in-json](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json)
 
@@ -25,7 +25,7 @@ Note that comments _are_ allowed in the settings file as of _Sublime version 2_,
 
 Comments are included below for readability as a reference file, rather than an implemented file.
 
-```
+```javascript
 {
     // ******************
     // Editing and saving
@@ -68,11 +68,11 @@ Comments are included below for readability as a reference file, rather than an 
         119
     ],
 
+
     // ******************
     // Auto complete
     // ******************
 
-    // Use these in conjunction with the Anaconda plugin.
     "auto_complete_commit_on_tab": true,
     "auto_complete_delay": 1500
 }
