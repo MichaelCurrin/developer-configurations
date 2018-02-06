@@ -1,17 +1,29 @@
-/**
- * Settings for the Anaconda plugin.
- *
- * Instructions:
- * 1. click Preferences
- * 2. click Package Settings
- * 3. click Anaconda
- * 4. click 'Settings - User'
- * 5  Edit
- * 6. Save (no need to restart Sublime)
- *
- * For more details, see the Default version of the file.
- *
- */
+# Anaconda
+
+Settings for the Sublime Anaconda plugin.
+
+
+## Instructions
+
+1. click `Preferences`
+2. click `Package Settings`
+3. click `Anaconda`
+4. click `Settings - User`
+5. edit
+6. save (no need to restart Sublime)
+
+
+## Notes
+
+
+For more details, see the Default version of the file.
+
+
+## Sample
+
+Try some of these settings. Some are commented out but already set to a value different to the default.
+
+```javascript
 {
     // ***************
     // Linting
@@ -47,3 +59,4 @@
     */
     //"complete_all_parameters": true,
 }
+```
