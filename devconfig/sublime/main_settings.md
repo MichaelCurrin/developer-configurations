@@ -39,8 +39,9 @@ Comments are included below for readability as a reference file, rather than an 
     "translate_tabs_to_spaces": true,
 
     // Set visibility of the indent guide.
-    // The default value of ["draw_normal"] only draws vertical dotted lines side by side at each indentical level.
-    // Add the "draw_active" option to make the indentation level for the keyboard cursor clear with highlighting.
+    // The default value of ["draw_normal"] only draws vertical dotted lines side by side at 
+    // each indentical level. Add the "draw_active" option to make the indentation level
+    // for the keyboard cursor clear with highlighting.
     // Or make this empy list to disable the indent guide lines.
     "indent_guide_options":
     [
@@ -116,8 +117,8 @@ Comments are included below for readability as a reference file, rather than an 
     // Editor
     //
 
-    // Use 'Open Folder...' or a drag and directory to Sublime to open the FOLDERS pane. Then set this 
-    // true to bold the directory names.
+    // Use 'Open Folder...' or a drag and directory to Sublime to open the FOLDERS pane. 
+    // Then set this true to bold the directory names.
     "bold_folder_labels": true,
 
     // Makes tabs with modified files more visible
