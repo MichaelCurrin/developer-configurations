@@ -73,7 +73,8 @@ Comments are included below for readability as a reference file, rather than an 
     // (there is probably a better way to do this with regex)
     // 1. ctrl+F, or `Find`, `Find...`,
     // 2. press spacebar
-    // 3. Enter a new line character by pressing ctrl+enter. This may have indented to a new line with space after it, so press backspace to remove the extra white space.
+    // 3. Enter a new line character by pressing ctrl+enter. This may have indented to a new 
+    // line with space after it, so press backspace to remove the extra white space.
     // 4. Press enter button or Find.
     "trim_trailing_white_space_on_save": true,
 
@@ -115,7 +116,8 @@ Comments are included below for readability as a reference file, rather than an 
     // Editor
     //
 
-    // Use 'Open Folder...' or a drag and directory to Sublime to open the FOLDERS pane. Then set this true to bold the directory names.
+    // Use 'Open Folder...' or a drag and directory to Sublime to open the FOLDERS pane. Then set this 
+    // true to bold the directory names.
     "bold_folder_labels": true,
 
     // Makes tabs with modified files more visible
@@ -152,7 +154,6 @@ Comments are included below for readability as a reference file, rather than an 
         "hashtag",
         "hashtags",
         "html",
-        "ident",
         "iterable",
         "nginx",
         "param",
