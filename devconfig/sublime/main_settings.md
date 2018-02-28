@@ -63,23 +63,31 @@ Comments are included below for readability as a reference file, rather than an 
     // for Bash or Python.
     "ensure_newline_at_eof_on_save": true,
 
-    // Remove white space on the end of a line.
-    // This is good to keep your scripts clean by hiding empty spaces at the
-    // end of lines. Be careful when using this on someone else's code though,
-    // as when you check the file with `git diff` you may see many trivial
-    // white changes which could make the number of lines changed large.
-    // Note that this not apply to text files such as .txt or .md extesions.
-    //
-    // Highlight all cases of a single space at the end of a line:
-    // (there is probably a better way to do this with regex)
-    // 1. ctrl+F, or `Find`, `Find...`,
-    // 2. press spacebar
-    // 3. Enter a new line character by pressing ctrl+enter. This may have indented to a new 
-    // line with space after it, so press backspace to remove the extra white space.
-    // 4. Press enter button or Find.
+    // Remove white space at the end of al lines.
+    /* 
+     * This is good to keep your scripts clean by removing empty spaces at the
+     * end of lines. Be careful when using this on someone else's code though,
+     * as when you check the file with `git diff` you may see many trivial
+     * white changes which could make the number of lines changed large.
+     * Note that this setting does not work on text files, such as those with
+     * .txt or .md extesions.
+     */
     "trim_trailing_white_space_on_save": true,
-
-
+    
+    // As the further note on the above, if you want to do this manually
+    // or want to apply the change to text files.
+    /* 
+     * Highlight all cases of a single space at the end of a line:
+     * (there is probably a better way to do this with Sublime's regex)
+     *
+     * 1. ctrl+F, or `Find`, `Find...` from the menubar,
+     * 2. press spacebar for a single pace
+     * 3. Enter a new line character by pressing ctrl+enter. This may have auto-indented to a new 
+     * line with space after it, so press backspace to remove that extra space before continuing.
+     * 4. Press enter button or Find.
+     * 5. Optionally use Replace, with a single line break (ctrl+enter) and no space before it.
+     */
+    
     //
     // Text Readability
     //
