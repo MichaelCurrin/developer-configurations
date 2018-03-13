@@ -64,6 +64,12 @@ $ nano ~/.gitconfig
     ls = ls-files
     # Show files ignored by git.
     ign = ls-files -o -i --exclude-standard
+    
+[credential]
+    # If using HTTPS rather than SSH to push/pull, then this setting keeps your password
+    # in memory for a set time, so you are not prompted to enter it again within that period.
+    # The time is in seconds so this is 1 hour.
+    helper = cache --timeout=3600
 ```
 
 ```bash
