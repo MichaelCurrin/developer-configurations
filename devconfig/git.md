@@ -72,9 +72,14 @@ $ nano ~/.gitconfig
     helper = cache --timeout=3600
 ```
 
+Create a file of files for git to ignore globally for you user. The filename is only be convention and needs to be referenced in the config settings as set above.
+
 ```bash
 $ nano /home/michael/.gitignore
 ```
+
+Include whatever is relevant for you.
+
 ```bash
 # Global .gitgnore file for current user.
 #
@@ -96,10 +101,8 @@ $ nano /home/michael/.gitignore
 # CSV lock file to prevent other applications from editing a CSV
 # while it is open.
 .~lock*.csv#
-```
 
-Note that you could include the following in the above file as well. Though, it appears in a repo's own `.gitignore` file when using Github to auto-generate it, so I think it is appropriate to ignore Spyder projects within a repo's own `.gitignore` file rather than the global file here.
-```
 # Spyder project file.
+.spyderproject
 .spyproject
 ```
