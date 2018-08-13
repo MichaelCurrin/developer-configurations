@@ -118,7 +118,7 @@ Comments are included below for readability as a reference file, rather than an 
     //
 
     "auto_complete_commit_on_tab": true,
-    "auto_complete_delay": 1500
+    "auto_complete_delay": 1500,
 
 
     //
