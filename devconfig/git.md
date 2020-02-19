@@ -47,7 +47,8 @@ $ git config --local commit.template my-local-template.txt
 Example:
 
 ```bash
-$ git config user.email example@example.com
+$ git config --global user.email example@example.com
+$ git config --global core.editor "code --wait"
 ```
 
 ## Sample configs
@@ -74,6 +75,9 @@ Note if you are in the repo and the template does not exist, you will get an err
         email = username@gmail.com
 [core]
         editor = nano
+        # VS Code - note the wait flag is needed.
+        editor = "code --wait"
+        
         excludesfile = /home/michael/.gitignore
 
 [alias]
