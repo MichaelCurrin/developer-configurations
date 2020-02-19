@@ -1,19 +1,49 @@
 # Git
 
-There are 3 configuration levels in git:
-- local (repo-specific)
-- global (user-specific)
-- system (system-wide)
+## Config types
 
-How to edit your user's global file, with some of my suggestions.
+There are 3 configuration levels in git:
+
+- local - for a repo
+- global - for a user
+- system - for all users
+
+There are formatted as TOML files - similar to YAML except they have headings like `[heading]`.
+
+## Editing configs
+
+### Local
 
 ```bash
-$ git config --global -e
+$ git config -e --local
+```
+
+### Global
+
+```bash
+$ git config -e --global
 # OR
 $ nano ~/.gitconfig
 ```
 
-```bash
+## Sample configs
+
+### Local
+
+Here, a template file is referenced. This is useful to prepopulate the commit message and is useful both for command-line commits and for the VS Code commit message.
+
+Note that it is a good idea to keep the template outside of version control, as below. For my case, I want to edit a template with a Jira ticket number while working on a ticket and then I write over the message with something else for another ticket, but no one else needs to have the template file so it is not in version control.
+
+```toml
+[commit]
+        template = /home/michael/commit_template.txt
+```
+
+Note if you are in the repo and the template does not exist, you will get an error message on committing.
+
+### Global
+
+```toml
 # This is Git's per-user configuration file.
 [user]
         name = YourName
@@ -71,6 +101,10 @@ $ nano ~/.gitconfig
     # The time is in seconds so this is 1 hour.
     helper = cache --timeout=3600
 ```
+
+## Global ignore file
+
+The section above references a global git ignore file, which you can create by follow this section.
 
 Create a file of files for git to ignore globally for you user. The filename is only be convention and needs to be referenced in the config settings as set above.
 
