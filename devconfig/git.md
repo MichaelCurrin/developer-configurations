@@ -58,7 +58,7 @@ Here, a template file is referenced. This is useful to prepopulate the commit me
 
 Note that it is a good idea to keep the template outside of version control, as below. For my case, I want to edit a template with a Jira ticket number while working on a ticket and then I write over the message with something else for another ticket, but no one else needs to have the template file so it is not in version control.
 
-```toml
+```
 [commit]
         template = /home/michael/commit_template.txt
 ```
@@ -67,7 +67,7 @@ Note if you are in the repo and the template does not exist, you will get an err
 
 ### Global
 
-```toml
+```
 # This is Git's per-user configuration file.
 [user]
         name = YourName
