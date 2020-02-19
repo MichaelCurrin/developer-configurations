@@ -12,18 +12,42 @@ There are formatted as TOML files - similar to YAML except they have headings li
 
 ## Editing configs
 
-### Local
+### Open for editing
+
+#### Local
 
 ```bash
 $ git config -e --local
 ```
 
-### Global
+#### Global
 
 ```bash
 $ git config -e --global
 # OR
 $ nano ~/.gitconfig
+```
+
+### Update field
+
+```bash
+$ git config [--local|--global] <SECTION>.<SUBSECTION> <VALUE>
+```
+
+#### Local
+
+Example:
+
+```bash
+$ git config --local commit.template my-local-template.txt
+```
+
+#### Global
+
+Example:
+
+```bash
+$ git config user.email example@example.com
 ```
 
 ## Sample configs
