@@ -1,5 +1,7 @@
 # Git
 
+<!-- TODO move to cheatsheets or cookbook -->
+
 ## Config types
 
 There are 3 configuration levels in git:
